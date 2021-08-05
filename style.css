@@ -5,18 +5,47 @@
 body{
 margin: 0;
 padding: 0;
+height: 1000px;
 }
 
 
 
 nav{
+    position: fixed;
+    background-color: #472915;
+    width: 100%;
+    
+}
 
-    padding: 0 10px;
-    margin: 0 30px;
+nav span{
+    font-size: 25px;
+}
+nav .nav-body{
+    padding: 0 40px;
+    height: 60px;
+    color: #fff;
+    line-height: 60px;
+   
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{
+   color: #867a73;
+    
+}
+nav .nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+nav .nav-list{
+    width: 48%;
 }
 
 nav ul {
-
+    margin: 0;
+    padding: 0;
     list-style-type:none;
     text-decoration: none;
     display: flex;
@@ -25,5 +54,6 @@ nav ul {
 }
 nav ul li{
 width:20%;
+text-decoration: none;
 
 }
